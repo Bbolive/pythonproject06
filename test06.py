@@ -1,10 +1,17 @@
 #for
 
-for x in range(5) :
-    print('IoT')
+for x in range(5) : # เริ่มที่ 0 - 4
+    print(f'IoT {x}')
+print('+++++++++++++++++++++++++')
+for y in range(10) : # เริ่มที่ 0 - 9
+    print(f'SAU {y}')
+print('+++++++++++++++++++++++++')
+for z in range (2, 10) : # เริ่มที่ 2 - 9
+    print(f'Hi {z}')
+print('+++++++++++++++++++++++++')
+for a in range(3,10,2) : # เริ่มที่3-9 / stop เป็น +2
+    print(f'Hey {a}')
+print('+++++++++++++++++++++++++')
 
-print('++++++++')
-
-for x in range(10) :
-    print('sau')
-
+for b in 'welcome to Thailand' :
+    print(f'Hoo {b}')
